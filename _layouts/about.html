@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% if page.profile %}
+  {% if page.profile.image %}
+    {% assign img_url = page.profile.image | prepend: '/assets/images/' | relative_url %}
+    <img class="profile {{ page.profile.align }}" style="border-radius: 20px; border: none; object-fit: cover; width: 30%; height: auto;" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
+  {% endif %}
+{% endif %}
+
+{% assign script = "<script> function image_aspect_ratio(url) { var img = new Image(); img.src = url; var width = img.width; var height = img.height; return (height / width); } </script>" %}
+{{ content | append: script }}
+
+    
