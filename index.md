@@ -7,4 +7,4 @@ profile:
 published: true
 ---
 
-Hello there! I'm a Junior at Indraprastha Institute of Information Technology, Delhi,studying Computer Science Engineering. Beyond the code, I'm a sci-fi and classic movies nerd, who watches every possible sport.
+Hello there! I'm a senior at Indraprastha Institute of Information Technology Delhi, studying Computer Science Engineering. Beyond the code, I'm a sci-fi and classic movies nerd, who watches every possible sport.
